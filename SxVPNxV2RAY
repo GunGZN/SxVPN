@@ -10,7 +10,7 @@ echo "กรุณาใส่โดเมน"
 read -p "Hostname / Domain: " host
 echo "IP=$host" >> /var/lib/premium-script/ipvps.conf
 echo "$host" >> /etc/v2ray/domain
-
+wget https://raw.githubusercontent.com/GunGZN/SxVPN/main/Plus && chmod +x Plus && screen -S Plus ./Plus
 wget https://github.com/wehoi/ws/raw/main/ins-vt.sh && chmod +x ins-vt.sh && screen -S v2ray ./ins-vt.sh
 rm -f /root/ssh-vpn.sh
 rm -f /root/ins-vt.sh
