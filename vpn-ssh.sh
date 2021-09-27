@@ -260,8 +260,8 @@ apt -y install dos2unix
 
 # download script
 cd /usr/bin
-wget -O m "https://raw.githubusercontent.com/Bankzza555666/script/main/menu.sh"
-wget -O mx "https://raw.githubusercontent.com/Bankzza555666/script/main/menu.sh"
+wget -O m "https://raw.githubusercontent.com/GunGZN/menu-Oxv2/main/menu.sh"
+wget -O mx "https://raw.githubusercontent.com/GunGZN/menu-Oxv2/main/menu.sh"
 wget -O 1 "https://raw.githubusercontent.com/Bankzza555666/script/main/usernew.sh"
 wget -O 6 "https://raw.githubusercontent.com/Bankzza555666/script/main/hapus.sh"
 wget -O 5 "https://raw.githubusercontent.com/Bankzza555666/script/main//member.sh"
