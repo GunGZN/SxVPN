@@ -5,42 +5,4 @@ wget -q -O 02 "https://raw.githubusercontent.com/GunGZN/SxVPN/main/delet.sh"
 
 echo "30 3 * * 0 root /sbin/reboot" > /etc/cron.d/reboot
 
-chmod +x 
-chmod +x 01
 chmod +x 02
-chmod +x 03
-chmod +x 04
-chmod +x 05
-chmod +x 06
-chmod +x 07
-chmod +x 08
-chmod +x 09
-chmod +x 10
-chmod +x k
-chmod +x 31
-chmod +x 12
-chmod +x 13
-chmod +x 14
-chmod +x 15
-chmod +x 16
-chmod +x 17
-chmod +x 18
-chmod +x 19
-chmod +x 20
-chmod +x 21
-chmod +x 22
-chmod +x 23
-chmod +x 24
-chmod +x 25
-chmod +x 27
-chmod +x 26
-chmod +x cr
-chmod +x nipa
-chmod +x 28
-chmod +x 29
-chmod +x panel
-chmod +x 30
-chmod +x 443
-chmod +x 32
-chmod +x 11
-chmod +x squid3.3
