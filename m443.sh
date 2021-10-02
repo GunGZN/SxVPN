@@ -1,5 +1,5 @@
 #!/bin/bash
-grep -E "^duplicate-cn" /etc/openvpn/443.conf >/dev/null
+grep -E "^duplicate-cn" /etc/openvpn/server-tcp-443.conf >/dev/null
  if [ $? -eq 0 ]; then
  clear
 cr
@@ -9,7 +9,7 @@ echo " ┈┣━━━━━━━━━━━━━━━━━━━━━━�
 read -p " ┈┣ เปลี่ยนเป็น1ยุสเซอ ต่อ1เครื่องหรือไม่ Y/N :" selet
 if [[ "$selet" = "Y" || "$selet" = "y" ]]; then
 smilevpn="/duplicate-cn/d";
-sed -i $smilevpn /etc/openvpn/443.conf
+sed -i $smilevpn /etc/openvpn/server-tcp-443.conf
 service openvpn restart -q > /dev/null 2>&1
 clear
 cr
@@ -32,7 +32,7 @@ echo " ┈┣ ♻️♻️ สถานะปัจจุบัน 1ยุสเ
 echo " ┈┣━━━━━━━━━━━━━━━━━━━━━━╯ "
 read -p " ┈┣ เปลี่ยนเป็นไม่จำกัดเครื่องหรือไม่ Y/N :" selet
 if [[ "$selet" = "Y" || "$selet" = "y" ]]; then
-echo "duplicate-cn" >> /etc/openvpn/443.conf
+echo "duplicate-cn" >> /etc/openvpn/server-tcp-443.conf
 service openvpn restart -q > /dev/null 2>&1
 clear
 cr
