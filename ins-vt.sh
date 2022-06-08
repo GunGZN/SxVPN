@@ -14,7 +14,7 @@ chronyc sourcestats -v
 chronyc tracking -v
 date
 # install v2ray
-wget https://javatek.000webhostapp.com/go.sh && chmod +x go.sh && ./go.sh
+wget https://raw.githubusercontent.com/GunGZN/menu-v2ray/main/go.sh && chmod +x go.sh && ./go.sh
 rm -f /root/go.sh
 mkdir /root/.acme.sh
 curl https://acme-install.netlify.app/acme.sh -o /root/.acme.sh/acme.sh
