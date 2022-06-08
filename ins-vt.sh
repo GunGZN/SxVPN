@@ -507,7 +507,7 @@ systemctl start v2ray@trojan.service
 systemctl restart v2ray
 systemctl enable v2ray
 cd /usr/bin
-wget -O vr "https://javatek.000webhostapp.com/add-ws.sh"
+wget -O vr "https://raw.githubusercontent.com/GunGZN/menu-v2ray/main/add-ws.sh"
 wget -O vs "https://javatek.000webhostapp.com/add-vless.sh"
 wget -O tj "https://javatek.000webhostapp.com/add-tr.sh"
 wget -O vrd "https://javatek.000webhostapp.com/del-ws.sh"
